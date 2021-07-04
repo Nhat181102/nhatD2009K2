@@ -1,0 +1,475 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif'
+}
+body{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+header{
+	background: white;
+	width: 100%;
+	height: 20px;
+	padding-top: 25px;
+	box-sizing: border-box;
+}
+.logo{
+	width: 30%;
+	height: 50px;
+	background: white;
+    float:left;
+	line-height: 50px;
+	
+
+}
+.logo img:hover{
+	color: #A1181A;
+}
+.menu{
+	width: 70%;
+	height: 50px;
+	background: white;
+	float: right;
+	line-height: 50px;
+}
+.menu ul{
+	list-style: none;
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.menu ul li a{
+	color: #1f1f1f;
+    text-decoration: none;
+	font-size: 16px;
+}
+.menu a:hover{
+	color: #FFFFFF;
+}
+.banner{
+	width: 100%;
+	height: 500px;
+	background: url("../../../ins/607e4dd00c79b13b673e254a_Home Ferretti Yachts.jpeg");
+	background-size: cover;
+	padding-top: 100px;
+	margin-top: 50px;
+	
+}
+
+.text-box{
+	text-align: center;
+	
+}
+.text-box h1{
+	margin-bottom: 30px;
+	margin-top: 100px;
+	font-size: 30px;
+	
+}
+.btn{ 
+	background: #000000;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-color: black;
+} 
+.text-box a:hover{
+    background: #FFFFFF;
+	color: #000000;
+}
+.personal{
+	width: 100%;
+	height: 500px;
+	padding: 100px 0; 
+}
+.video{
+	height: 500px;
+    background: grey;
+	float: right;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.infor{	
+	width: 40%;
+	height: 500px;
+	float: left;
+}
+.content-infor{
+	width: 100%;
+	height: 130px;
+	
+}
+.avatar{
+	width: 100%;
+	height: 130px;
+	background: url("../../../ins/608a645259e346204e3895ad_Logo Ferretti Yachts - color-p-500.png");
+}
+.ct-main{
+	margin: 80px 0;
+	margin-left: 80px;
+}
+.content-infor btn{
+	margin-left: 60px;
+}
+.muc a {
+	margin-left: 100px;
+}
+.btn:hover{
+	background: #FFFFFF;
+	color: black;
+}
+.personal-1{
+	width: 100%;
+	height: 500px;
+	padding: 100px 0; 
+	
+}
+.video-1{
+	width: 50%;
+	height: 500px;
+	float: left;
+	border-radius: 20px;
+	overflow: hidden;
+	background: grey;
+}
+.infor-1{	
+	width: 40%;
+	height: 500px;
+	float: right;
+	
+	
+}
+.avatar-1{
+	width: 90%;
+	height: 113px;
+	background: url("../../../ins/608a5d47f3d2f9bb66ba9da5_Logo Pershing - color-p-500.png");
+	padding-right: 120px;
+}
+.ct-main-1{
+	margin: 50px 0;
+	margin-right: 80px;
+}
+.btn1{
+background: #000000;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-color: black;
+}.personal-2{
+	width: 100%;
+	height: 500px;
+	padding: 100px 0; 
+
+	
+}
+.video-2{
+	width: 50%;
+	height: 500px;
+	float: right;
+	border-radius: 20px;
+	overflow: hidden;
+	background: grey;
+}
+.infor-2{	
+	width: 40%;
+	height: 500px;
+	float: left;
+	
+	
+}
+.avatar-2{
+	
+	height: 130px;
+	background: url("../../../ins/Untitled-22-01.jpg");
+	padding-left: 50px;
+}
+.ct-main-2{
+	margin: 45px 0;
+	padding-left: 50px;
+}
+.content-infor-2 btn{
+	margin-left: 60px;
+
+}
+.btn2 {
+	background: #000000;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-color: black; 
+}
+.btn3 {
+	color: black;
+	padding: 10px 30px;
+	text-decoration: none;
+
+}
+.btn3:hover{
+	color: white;
+}
+.personal-3{
+	width: 100%;
+	height: 500px;
+	padding: 100px 0; 
+}
+.video-3 img{
+	width: 100%;
+	
+}
+.h1{
+	padding-top: 20px;
+	
+}
+.ct-main-3 h3{
+	margin: 5px 0;
+	
+}
+.personal-4{
+	width: 100%;
+	height: 1000px;
+	padding: 150px 0; 
+
+}
+.infor-4{
+	width: 50%;
+	height: 600px;
+	float: left;
+	padding: 10px;
+}
+.ct-main-4 h1{
+	padding: 20px;
+}
+
+.video-4{
+		width: 35%;
+	height: 700px;
+	float: right;
+	padding: 30px 0;
+	
+	padding: 20px;
+    background: white;
+	border: 2px solid red;
+}
+
+.text-box-4{
+	width: 100%;
+	height: 200px;
+	
+	
+}
+.text-box-4 h1{
+	color: red;
+	margin: 0 auto;
+}
+.text-box-4 h2{
+	color: black;
+	font-size: 30px;
+}
+
+.form{
+	width: 100%;
+	height: 400px;
+}
+.form input{
+	width: 100%;
+	height: 50px;
+}
+.form textarea{
+	width: 100%;
+	height: 120px;
+}
+.form button{
+	width: 30%;
+	height: 50px;
+	background: #E2E2E2;
+	font-size: 20px;
+	margin-top: 30px;
+	
+}
+.form button:hover{
+	background: black;
+	color: white
+		
+}
+{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+body{
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     min-height: 100vh;
+     flex-direction: column;
+     
+ }
+
+footer{
+     position: relative;
+     width: 100%;
+     height: auto;
+     padding: 50px 100px;
+     background: #111;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+footer .container{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     flex-direction: row;
+ }
+ footer .container .video-5 h2{
+     position: relative;
+     color: #fff;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+ footer .container .video-5 h2:before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 50px;
+     height: 2px;
+     background: #f00;
+}
+footer .container .video-5 p{
+     color: #999;
+ }
+ /*Thiết Lập Cho Thành Phần Icon Mạng Xã Hội*/
+
+.muc-5 h2{
+     position: relative;
+     color: #fff;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+.muc-5 h2{
+     position: relative;
+     color: #fff;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+.muc-5 h2::before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 50px;
+     height: 2px;
+     background: #f00;
+ }
+.muc-5{
+    position: relative;
+    width: 25%;
+ }
+.muc-5ul li{
+     list-style: none;
+ }
+.muc-5 ul li a{
+     color: #999;
+     text-decoration: none;
+     margin-bottom: 10px;
+     display: inline-block;
+ }
+.muc-5 ul li a:hover{
+     color: #fff;
+ }
+.contact h2{
+     position: relative;
+     color: #fff;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+.contact h2::before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 50px;
+     height: 2px;
+     background: #f00;
+ }
+
+.contact .info{
+     position: relative;
+ }
+ .contact .info li{
+     display: flex;
+     margin-bottom: 16px;
+ }
+ .contact .info li span:nth-child(1) {
+     color: #fff;
+     font-size: 20px;
+     margin-right: 10px;
+ }
+.contact .info li span{
+     color: #999;
+ }
+.contact .info li a{
+     color: #999;
+     text-decoration: none;
+ }
+.btn- {
+     display: inline-block;
+     background: transparent;
+     color: inherit;
+     font: inherit;
+     border: 0;
+     outline: 0;
+     padding: 0;
+     margin-top:16px;
+     transition: all 200ms ease-in;
+     cursor: pointer;
+ }
+ .btn--primary {
+     background: #222;
+     color: #fff;
+     box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+     border-radius: 2px;
+     padding: 8px 24px;
+ }
+ .btn--primary:hover {
+     background: #f00;
+ }
+ .btn--primary:active {
+     background: #f00;
+     box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+ }
+.form__field {
+     width: 90%;
+     background: #fff;
+     color: #a3a3a3;
+     font: inherit;
+     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+     border: 0;
+     outline: 0;
+     padding: 8px 4px;
+ }
+@media  (max-width : 1122px ){
+     footer{
+         padding: 40px;
+              }
+     footer .container{
+         flex-direction: column;
+     }
+     footer .container .noi-dung{
+         margin-right: 0;
+         margin-bottom: 40px;
+     }
+     footer .container, .noi-dung.about, .links, .contact{
+         width: 100%;
+     }
+ }
